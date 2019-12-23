@@ -1,0 +1,877 @@
+Qid,Question,Cognitive Category,Knowledge Category,Knowledge Units
+Q001,(a) Consider the following 'C' function named,Evaluate,Procedural,Software Project Management
+,"            int compute __zed (int x, int y)",,,
+,           {,,,
+,                 while (x - y),,,
+,             {,,,
+,                 if (x > y) then,,,
+,                   x=x-y;,,,
+,                  else y = y-x ;,,,
+,             },,,
+,                  return x ;,,,
+,           },,,
+,Determine the cyclomatic complexity of the above problem and list different linearly independent paths using control flow graph.,,,
+Q002,Compare waterfall model and spiral model.,Analyze,Conceptual,Software Processes
+Q003,What is Agility ? Describe Extreme programming process ?,Understand,Procedural,Software Processes
+Q004,What do you understand by process maturity ?,Understand,Factual,Software Processes
+Q005,Prepare software requirement specification (SRS) for course management system.,Create,Conceptual,Requirements Engineering
+Q006,"(b) Draw DFD (Level 0, 1 and 2) for course management system, and explain.",Apply,Procedural,Software Design
+Q007,Which life cycle model would you follow for developing following project and why? (i) Library Management System (ii) Web Applications,Evaluate,Procedural,Software Processes
+Q008,(b) List three common types of risks that a typical software project might suffer from. Give the RMMM plan for the same.,Apply,Conceptual,Software Design
+Q009,4. (a) Describe the activities of project scheduling and tracking.,Understand,Conceptual,Software Project Management
+Q010,(b) What is quality assurance ? Discuss various levels of quality assurance in software engineering,Understand,Conceptual,Software Project Management
+Q011,(a) What is baseline in the content of software configuration management ? ,Remember,Factual,Tools and Environments
+Q012,Describe how version control and change control are carried out during SCM?,Understand,Factual,Tools and Environments
+Q013,(b) What are the main advantages of using an object-oriented approach to software design over a function oriented approach ?,Apply,Conceptual,Software Design
+Q014,(a) Explain the user interface design process.,Understand,Procedural,Software Design
+Q015,(b) Explain the term unit testing integration testing. Also compare top-down and bottom-up testing.,Evaluate,Procedural,Software Project Management
+Q016,Write a short note on (a)Service-oriented software engineering (b) Reverse engineering (c) Empirical estimation techniques (d) Test driven development.,Understand,Conceptual,Software Project Management
+Q017,Justify any five guidelines of metrics with respect to your project of choice. Explain it with suitable diagrams. Of above project of choice ? ,Evaluate,Procedural,Software Project Management
+Q018,How would you reduce the maintenance cost of software and increase the re-usability ,Create,Procedural,Software Project Management
+Q019,Design a RMMM plan for a database project. Explain the plan with atleast five risks and analyse the same.,Create,Procedural,Software Project Management
+Q020,What is the importance of change control ? Explain it with configuration items and baselines. ,Understand,Conceptual,Tools and Environments
+Q021,What are the different tasks of software configuration management ? ,Understand,Conceptual,Tools and Environments
+Q022,Justify the requirement of object oriented software Engineering. Which tests play important role in object oriented context ? ,Evaluate,Procedural,Software Design
+Q023,List and explain the fundamental concepts for software design.,Understand,Conceptual,Software Design
+Q024,Which tests are carried out during verification and validation ? Explain in detail. ,Understand,Conceptual,Software Verification and Validation
+Q025,Explain the different techniques of software requirement analysis. ,Understand,Conceptual,Requirements Engineering
+Q026,Discuss the software project planning with the help of SRS. ,Apply,Conceptual,Requirements Engineering
+Q027,List and explain the activities of version control. ,Understand,Procedural,Tools and Environments
+Q028,Explain basis path testing and cyclometric complex with example and diagram.,Understand,Conceptual,Software Verification and Validation
+Q029,Write short notes on (any two) :—(a) User interface design principles (b) Impirical estimation model (c) CMM. ,Understand,Conceptual,
+Q030," A system is designed for evaluation of various tenders received by an 20 organization. It had various steps like data entry of bids, tabulation of bids, preparation of lowest bid document, entry of actual orders with actual prices negotiated, preparation of a 'deviation document' that will record all differences between lowest bid and actual orders. The entire system was built under text based UNIX and is being proposed to be changed to a GUI and windows based system. Draw data flow diagram (level 0, 1, 2, and control flow diagram describing all details. ",Create,Procedural,Software Design
+Q031,Explain Software Configuration Management in detail. ,Understand,Conceptual,Tools and Environments
+Q032,Compare and Contrast Coupling and Cohesion. ,Understand,Conceptual,Software Design
+Q033,"Explain risk identification, risk projection, RMMM plan in detail.",Understand,Conceptual,Software Project Management
+Q034,Explain how Ganntt-chart can be used for planning and controlling small Projects with suitable example? What are the limitations of Gantt-Chart ? ,Apply,Procedural,Software Design
+Q035,Explain various steps involved in SRS for case study in question no. one. ,Understand,Procedural,Requirements Engineering
+Q036,"What is feasibility study? Explain its types, contents and purpose.",Understand,Conceptual,Requirements Engineering
+Q037,Explain the difference between (1) White Box and Black Box Testing (ii) Component Based Model and Spiral Model. ,Understand,Conceptual,
+Q038,Describe project scheduling and tracking with any suitable example. ,Understand,Conceptual,Software Project Management
+Q039,Explain in detail software project plan with case study in question no. one. ,Create,Procedural,Software Project Management
+Q040,Write Short Notes on any two (a) CMM and Key Process Areas (b) Security engineering (c) Reengineering (d) Design Concepts and Principles . ,Understand,Conceptual,
+Q041,Define Metrics. Describe process and project metrics.,Understand,Factual,Software Project Management
+Q042,What is Agility ? Define the principal to achieve agility.,Remember,Conceptual,Software Processes
+Q043,What is functional and non-functional requirement of SRS ?,Remember,Factual,Requirements Engineering
+Q044,What are the advantages of test driven development ? ,Remember,Factual,Software Construction
+Q045,Explain incremental process model with suitable example.,Understand,Conceptual,Software Processes
+Q046,Explain change control in detail along with software configuratioin items and baseline,Understand,Conceptual,Tools and Environments
+Q047,Explain different steps in requirement engineering.,Understand,Procedural,Requirements Engineering
+Q048,Discuss and compare coupling and cohesion in brief. ,Understand,Conceptual,Software Design
+Q049,What test is carried during validation and verification ? Explain with example.,Analyze,Conceptual,Software Verification and Validation
+Q050, List and explain the fundamental concepts for software design.,Understand,Conceptual,Software Design
+Q051,Explain different types of maintenance with suitable example.,Understand,Conceptual,Software Evolution
+Q052,What is quality Assurance ? What are different parameters of Quality ?,Remember,Factual,Software Project Management
+Q053,What are the risks associated with software projects ? How do project managers manage such risks ? ,Apply,Procedural,Software Project Management
+Q054,List down and explain the activities of scheduling and tracking for Library management system. ,Apply,Procedural,Software Project Management
+Q055,Write a short notes on any two : (a) Re-engineering. (b) Security Engineering. (c) White Box and Black Box Testing. (d) CMM and Key Process Areas. ,Understand,Conceptual,
+Q056,Discuss incremental process model and evolutionary process model with reference to the suitability of the project.,Evaluate,Conceptual,Software Processes
+Q057,Explain how size oriented metrics differs from function oriented metrics. Give example when each are recommended. ,Evaluate,Procedural,Software Project Management
+Q058,Give software requirement specification (SRS) for developing a software for payroll management system.,Apply,Procedural,Requirements Engineering
+Q059, Workout data flow diagram and control flow diagram in detail respect to payroll management system.,Apply,Procedural,Software Design
+Q060,Explain the various levels of quality assurance in software Engineering with reference to different parameters of quality.,Analyze,Conceptual,Software Project Management
+Q061,What is configuration audit? How change in managed in web applications? ,Understand,Procedural,Tools and Environments
+Q062, Discuss and compare TDD (Test driven development) and DDT (design driven testing).,Analyze,Conceptual,Software Construction
+Q063, What activities are carried out during FTR and status reporting and why? ,Understand,Conceptual,Software Verification and Validation
+Q064,List down and explain the activities carried out during scheduling and tracking.,Understand,Conceptual,Software Project Management
+Q065,Discuss the cases where change control and version control are required with its purposes. ,Apply,Factual,Tools and Environments
+Q066,Compare the conventional approach and object oriented approach to software development with suitability.,Understand,Conceptual,Software Construction
+Q067,What is requirement of risk analysis. What are the possible risks that may affect the scheduling? How you can overcome the same? ,Analyze,Procedural,Software Project Management
+Q068,Write short noe on:—(a) SCRUM and CRYSTAL (b) Design concepts and principles (c) Coupling and cohesion (d) Gantt chart ,Understand,Conceptual,
+Q069,What are the different tasks of Software Configuration Management (SCM) ? Discuss each in brief.,Understand,Conceptual,Tools and Environments
+Q070,What do you understand by Quality Assurance ? Explain the Levels of Quality Assurance.,Understand,Conceptual,Software Project Management
+Q071,"What is Feasibility Study ? Explain its type, contents and purpose. ",Understand,Factual,Requirements Engineering
+Q072,What do you understand by metrics ? List and explain Process and Project metrics,Understand,Factual,Software Project Management
+Q073,Compare and contrast coupling and cohesion.,Understand,Conceptual,Software Design
+Q074,Explain the user interface Design Process.,Understand,Procedural,Software Design
+Q075,Explain the difference between White Box and Black Box testing. ,Understand,Conceptual,Software Verification and Validation
+Q076,What are the advantages of Object Oriented Software Engineering ?,Remember,Conceptual,Software Design
+Q077,Give a Software Requirement Specification (SRS) for deyeloping a Software for Hospital Management System.,Create,Procedural,Requirements Engineering
+Q078,Describe Project Scheduling and tracking with any suitable example.,Understand,Conceptual,Software Project Management
+Q079,Expiain agile methodology using SCROM.  ,Apply,Conceptual,Software Processes
+Q080,Explain requirement engineering.      ,Understand,Conceptual,Requirements Engineering
+Q081,Write short notes on any four of the following :-   (a) Software Tools for Analysis  (b) Re-engineering (c) Architectural Styles  (d) Software Project Planning  (e) RAD and Spiral Models,Understand,Conceptual,
+Q082,Enlist and explain the steps require to perform cost estimation using COCOMO model ? ,Understand,Procedural,Software Project Management
+Q083,Give a Software Requirement Specification (SRS) for developing a software for Payroll Management System ,Create,Procedural,Requirements Engineering
+Q084,Explain Software Configuration Management and Change Control Management in detail.,Understand,Conceptual,Tools and Environments
+Q085,Explain CMM along with the Level and activities with each revel. ,Understand,Procedural,Software Reliability
+Q086,Explain how Gantt-chart can be used for planning and controlling small projects with example ? What are the limitations of Gantt-chart ? ,Apply,Procedural,Software Design
+Q087,"Explain risk identification, risk projection, RMMM plan in detail.",Understand,Conceptual,Software Project Management
+Q088,What do you understand by Quality Assurance ? Explain the levels of Quality Assurance.,Understand,Conceptual,Software Project Management
+Q089,Explain Basic path testing and Cyclomatic complexity in detail. ,Understand,Conceptual,Software Verification and Validation
+Q090,Compare conventional approach and object oriented approach to software development ? What are the advantages of OOAD ?,Analyze,Conceptual,Software Construction
+Q091,"What is feasible study ? Explain its types, contents and purpose. ",Understand,Conceptual,Requirements Engineering
+Q092, Explain how project scheduling and tracking is done for a software development project ? ,Apply,Procedural,Software Project Management
+Q093,Describe data flow and control flow diagram with suitable example. ,Understand,Procedural,Software Design
+Q094,Distinguish between :—(a) White Box and Black Box Testing (b) Coupling and Cohesion (c) RAD and Spiral Model (d) FP Based and LCC Based Cost Estimation.,Understand,Conceptual,
+Q095,Define Software Engineering. Explain the importance of Software Engineering.,Understand,Conceptual,Software Processes
+Q096,Explain the incremental model with advantages and disadvantages.,Understand,Conceptual,Software Processes
+Q097,What is software myth ? Give an example.,Understand,Factual,Software Processes
+Q098,Explain the Extreme Programming Process.,Understand,Conceptual,Software Processes
+Q099,Explain how component based development reduces the time of software development ?,Analyze,Procedural,Software Project Management
+Q100,What are the disadvantages of the water fall model ?,Remember,Conceptual,Software Processes
+Q101,Explain the data flow diagram with an example.,Understand,Procedural,Software Design
+Q102,Explain the elements of an analysis model.,Understand,Conceptual,Software Processes
+Q103,Give the use case diagram for ‘Library book issue system’. Write the scope of the system.,Apply,Procedural,Software Design
+Q104,Explain the elements of an activity diagram with an example.,Understand,Conceptual,Software Design
+Q105,Explain any two architectural styles.,Understand,Conceptual,Software Design
+Q106,Explain modularity and information hiding in software design.,Understand,Conceptual,Software Design
+Q107,What is component level design ?,Remember,Conceptual,Software Design
+Q108,Explain the user interface design process.,Understand,Procedural,Software Design
+Q109,How functional independence is achieved in software design ?,Understand,Conceptual,Software Design
+Q110,What do you mean by application accessibility and internationalization in user interface design ?,Remember,Conceptual,Software Design
+Q111,What is software testing ? Explain the software testing strategies.,Understand,Conceptual,Software Verification and Validation
+Q112,How test cases are derived in basis path testing ?,Evaluate,Procedural,Software Verification and Validation
+Q113,What do you mean by performance testing ?,Remember,Conceptual,Software Verification and Validation
+Q114,Explain and compare incremental integration testing strategies.,Understand,Conceptual,Software Verification and Validation
+Q115,Explain the debugging tactics.,Understand,Conceptual,Software Verification and Validation
+Q116,What is acceptance testing ?,Remember,Conceptual,Software Verification and Validation
+Q117,Explain the function point method for estimation.,Understand,Procedural,Software Project Management
+Q118,Explain the Make-buy decision with an example.,Understand,Procedural,Software Project Management
+Q119,How problem based estimation is carried out ? Explain with an example.,Understand,Procedural,Software Project Management
+Q120,Give different team structures for software development team.,Remember,Factual,Software Project Management
+Q121,Explain the following in brief. i) Risk assessment ii) SCM repository.,Understand,Conceptual,Software Project Management
+Q122,What is work break down structure ? How this is used in task network of project scheduling ?,Apply,Conceptual,Software Project Management
+Q123,Explain any four quality measures of software.,Understand,Conceptual,Software Project Management
+Q124,Explain the tracking of software development schedule.,Understand,Conceptual,Software Project Management
+Q125,What do you mean by software myths ? State the myths and facts for software developer.,Remember,Factual,Software Processes
+Q126,Explain the prototyping model with its advantages and disadvantages.,Understand,Conceptual,Software Processes
+Q127,State the activities of spiral model.,Remember,Conceptual,Software Processes
+Q128,Explain the water fall model with V model.,Understand,Conceptual,Software Processes
+Q129,Explain the component development model with activities.,Understand,Procedural,Software Processes
+Q130,Give the need of different process models in software development.,Evaluate,Procedural,Software Processes
+Q131,Explain the analysis model elements with models created in each.,Understand,Conceptual,Software Processes
+Q132,State and explain any four requirements engineering tasks.,Understand,Conceptual,Requirements Engineering
+Q133,"Give the actors, use cases and use case diagram for “Online mobile order and purchase system”. Write the scope of the system.",Apply,Procedural,Software Design
+Q134,Explain the elements of Data flow diagram with an example.,Understand,Procedural,Software Design
+Q135,Explain the architectural context diagram with an example.,Understand,Conceptual,Software Design
+Q136,Explain the types of design classes.,Understand,Conceptual,Software Design
+Q137,Differentiate between design and architecture,Analyze,Conceptual,Software Design
+Q138,State and explain any four design principles.,Understand,Conceptual,Software Design
+Q139,Explain the user interface design process.,Understand,Procedural,Software Design
+Q140,What is layered architecture ?,Remember,Factual,Software Design
+Q141,What is software testing ? Explain the software testing strategy for software development.,Understand,Procedural,Software Verification and Validation
+Q142,Explain the debugging process.,Understand,Conceptual,Software Verification and Validation
+Q143,What is the need of stubs and drivers in software testing ?,Remember,Conceptual,Software Verification and Validation
+Q144,Explain the integration testing approaches.,Understand,Conceptual,Software Verification and Validation
+Q145,What do you mean by performance testing and recovery testing ?,Understand,Conceptual,Software Verification and Validation
+Q146,Differentiate between verification and validation.,Understand,Procedural,Software Verification and Validation
+Q147,Explain the computation of function point metric for project estimation with an example.,Understand,Conceptual,Software Project Management
+Q148,Explain any four quality measures of software.,Understand,Conceptual,Software Project Management
+Q149,What is LOC based estimation ? Explain with an example,Understand,Conceptual,Software Project Management
+Q150,Explain COCOMO model for project estimation.,Understand,Procedural,Software Project Management
+Q151,Write short notes for the following : i) Risk table ii) Change control process.,Understand,Conceptual,Software Project Management
+Q152,Explain the software configuration management process.,Understand,Conceptual,Tools and Environments
+Q153,What is a task network ? How it is used in scheduling of software project ?,Understand,Procedural,Software Project Management
+Q154,Explain the risk identification and assessment process for a software project,Understand,Procedural,Software Project Management
+Q155,What do you mean by working and throwaway prototypes? Explain how they are used in prototyping model? ,Understand,Conceptual,Software Processes
+Q156,Explain the water fall model with its advantages and disadvantages. ,Understand,Conceptual,Software Processes
+Q157,State the generic process framework activities. ,Remember,Conceptual,Software Processes
+Q158,Explain the phases of unified process model. ,Understand,Procedural,Software Processes
+Q159,State the myths of the practitioner and the realities.,Remember,Factual,Software Processes
+Q160,Why is the formal methods model used in critical software development?,Analyze,Conceptual,Software Processes
+Q161,Explain the scenario based modeling with an example.,Understand,Conceptual,Software Processes
+Q162,Give the scope and modeling of association and dependencies between the classes for a Payroll Management System.,Analyze,Procedural,Software Design
+Q163,State and explain the methods for eliciting requirements. ,Understand,Procedural,Requirements Engineering
+Q164, What is the significance of data flow modeling? Create level one DFD for an ATM system.,Create,Procedural,Software Design
+Q165,"Explain the quality attributes, considered in software design.",Understand,Conceptual,Software Design
+Q166,What are the characteristics of a well formed design class?,Remember,Procedural,Software Design
+Q167,Differentiate between abstraction and refinement.,Understand,Conceptual,Software Design
+Q168,Explain the user interface design steps. ,Understand,Procedural,Software Design
+Q169,What are the design principles for reducing the user's memory load in user interface design? ,Create,Procedural,Software Design
+Q170, Explain in brief call and return architecture. ,Understand,Conceptual,Software Design
+Q171,What is unit testing? Explain the unit testing process. ,Understand,Conceptual,Software Verification and Validation
+Q172,Explain the strategic approach to software testing.,Understand,Procedural,Software Verification and Validation
+Q173,Compare the software testing with debugging.  ,Analyze,Procedural,Software Verification and Validation
+Q174,Basis path testing is covers all statements in a program module. Justify with example. ,Evaluate,Procedural,Software Verification and Validation
+Q175,Explain any two system testing methods. ,Understand,Conceptual,Software Verification and Validation
+Q176,Differentiate between white box and black box testing.,Understand,Conceptual,Software Verification and Validation
+Q177,What do you mean by software project estimation? Explain the process based estimation with an example.,Apply,Procedural,Software Project Management
+Q178,Explain defect removal efficiency as a metric for project and process.,Apply,Procedural,Software Project Management
+Q179,What is empirical estimation model? Explain with any one technique.,Understand,Procedural,Software Project Management
+Q180,Explain the decision tree technique for make/buy decision. ,Understand,Procedural,Software Project Management
+Q181,Write short notes for the following : i)  Risk identification.  ii) Software configuration process.,Understand,Conceptual,Software Project Management
+Q182,Discuss the techniques used in tracking the project schedule.,Understand,Procedural,Software Project Management
+Q183,What is time line chart? How it is used in scheduling of software  project?,Apply,Procedural,Software Project Management
+Q184,Explain the change control process in software configuration process.,Understand,Conceptual,Tools and Environments
+Q185,Define software engineering. What are the software characteristics ? What are the various categories of software ?,Remember,Factual,Software Processes
+Q186,State and explain customer’s myths.,Remember,Factual,Software Processes
+Q187,Explain in detail software crises.,Understand,Factual,Software Processes
+Q188,What is software process model ? Explain the incremental process model.,Understand,Conceptual,Software Processes
+Q189,Explain in detail process pattern.,Understand,Procedural,Software Processes
+Q190,What are the management myths ?,Remember,Factual,Software Processes
+Q191,Explain the scenario based elements of analysis model in detail.,Understand,Procedural,Software Processes
+Q192,Explain in detail requirement engineering task.,Understand,Conceptual,Requirements Engineering
+Q193,What are the characteristics that requirement must meet ?,Remember,Factual,Requirements Engineering
+Q194,Draw and explain the traceability table for requirement management.,Understand,Procedural,Requirements Engineering
+Q195,Describe two real time situation in which the customer and the end-user is same. Describe two situation in which they are different.,Analyze,Procedural,Software Reliability
+Q196,What are the design quality guidelines ?,Remember,Factual,Software Design
+Q197,What are the elements in data design ? What are the guidelines for the data design ?,Understand,Conceptual,Software Design
+Q198,Explain the Web Application Architecture.,Understand,Conceptual,Software Design
+Q199,What are the interface design principles and guidelines ?,Understand,Conceptual,Software Design
+Q200,What is importance of testing practices ? What are the principles of testing practices ?,Understand,Procedural,Software Verification and Validation
+Q201,Explain in detail : 1) Top-down integration testing 2) Bottom-up testing.,Understand,Procedural,Software Verification and Validation
+Q202,What is cyclomatic complexity ? How is it determined for a flow graph ? Illustrate with example.,Apply,Procedural,Software Verification and Validation
+Q203,Explain following testing types 1) Validation testing  2) Acceptance testing  3) Smoke testing process.,Understand,Procedural,Software Verification and Validation
+Q204,What are the categories of stakeholders ? What are the characteristics of effective project manager ?,Remember,Factual,Software Project Management
+Q205,What are the attributes of effective software metrics ? Explain in detail Defect Removal Efficiency.,Understand,Conceptual,Software Project Management
+Q206,How do you measure software quality in terms of maintainability and integrity ?,Evaluate,Procedural,Software Evolution
+Q207,What is Object Oriented metric ?,Remember,Factual,Software Project Management
+Q208,Explain size oriented metric ? What data should we collect to derive size oriented metrics ?,Understand,Procedural,Software Project Management
+Q209,What are the software quality factors ? Explain any four.,Understand,Factual,Software Project Management
+Q210,What are the types of risks ? Explain in brief.,Understand,Factual,Software Project Management
+Q211,What is configuration audit ? What is status reporting ?,Remember,Factual,Tools and Environments
+Q212,Write short note on :  1) RMMM   2) Change control process,Understand,Conceptual,Tools and Environments
+Q213,Explain the waterfall model with work products of each activity.,Understand,Procedural,Software Processes
+Q214,What is Software Engineering? Explain the layered approach to Software Engineering.,Understand,Conceptual,Software Processes
+Q215,Explain the following terms in brief. 1. Software Crisis  2. Legacy Software 3. Stakeholder 4. Software myth,Understand,Factual,Software Processes
+Q216,Compare the agile and evolutionary process models with a specific process model for each.,Analyze,Procedural,Software Processes
+Q217,"Create the swimlane diagram for, monitoring of sensor in a Safehome security system’ from control panel.",Create,Procedural,Software Project Management
+Q218,How use cases are used in modeling requirements?,Apply,Factual,Requirements Engineering
+Q219,What are the workproducts of Elicitation?,Remember,Factual,Requirements Engineering
+Q220,Explain the elements of requirements model.,Understand,Conceptual,Requirements Engineering
+Q221,How do you model the data objects?,Create,Procedural,Software Design
+Q222,Write a CRC for the class ‘Email system user’.,Create,Procedural,Software Construction
+Q223,Explain the following design concepts. i. Refinement ii. Modularity iii. Architecture,Understand,Conceptual,Software Design
+Q224,Explain the elements of design model.,Understand,Conceptual,Software Design
+Q225,Compare data flow and data centered architecture.,Analyze,Procedural,Software Design
+Q226,Give the architecture context diagram for room temperature monitor system.,Create,Procedural,Software Design
+Q227,Explain the following.  i. Smoke testing ii. Regression Testing,Understand,Conceptual,Software Verification and Validation
+Q228,Explain the debugging process.,Understand,Procedural,Software Verification and Validation
+Q229,How do you ensure the completion of testing?,Evaluate,Procedural,Software Verification and Validation
+Q230,Explain the graph matrix and loop testing methods.,Understand,Procedural,Software Verification and Validation
+Q231,How Object oriented testing differs from conventional testing strategies?,Analyze,Conceptual,Software Verification and Validation
+Q232,What do you mean by acceptance testing?,Understand,Conceptual,Software Verification and Validation
+Q233,Differentiate between measure and metric. What is GQM paradigm for software measurement?,Understand,Conceptual,Software Project Management
+Q234,How do you calculate FP and how it is used in estimation of a software project?,Apply,Procedural,Software Project Management
+Q235,"Explain the role of people, process and product in project Management.",Understand,Conceptual,Software Project Management
+Q236,How do you measure quality of software? Explain with any two quality metrics.,Apply,Procedural,Software Project Management
+Q237,Explain the risk identification and assessment activities.,Understand,Conceptual,Software Project Management
+Q238,How task network is used in scheduling of a software project?,Apply,Conceptual,Software Project Management
+Q239,Explain the software configuration management process.,Understand,Procedural,Tools and Environments
+Q240,Explain how do you track the progress of an object oriented project?,Understand,Procedural,Software Project Management
+Q241,Define software engineering. How software engineering is different from hardware engineering ? Justify.,Evaluate,Conceptual,Software Processes
+Q242,Explain process pattern template with an example.,Understand,Conceptual,Software Processes
+Q243,What do you mean by evolutionary process models ? Explain spiral model as an evolutionary process model.,Apply,Conceptual,Software Processes
+Q244,Explain how extreme programming process supports agility with its framework activities ?,Analyze,Conceptual,Software Processes
+Q245,What are requirements engineering tasks ? Explain the elicitation process using quality function deployment,Apply,Procedural,Requirements Engineering
+Q246,Explain the analysis model with its elements.,Understand,Conceptual,Software Processes
+Q247,How use cases can be used to model the requirements ? Write an usecase for ‘login’ with a template and diagram.,Apply,Procedural,Software Design
+Q248,What do you mean by flow modeling ? Explain data flow modeling with an example,Understand,Conceptual,Software Design
+Q249,Explain the following design concepts i) Modularity ii) Architecture,Understand,Conceptual,Software Design
+Q250,What are the different types of design classes ?,Remember,Conceptual,Software Design
+Q251,Explain any two architectural styles with respect to program structure.,Understand,Procedural,Software Design
+Q252,Explain the user interface design issues.,Understand,Factual,Software Design
+Q253,What do you mean by software architecture ? Explain the system context diagram elements with an example.,Understand,Conceptual,Software Design
+Q254,Explain the user interface design process.,Understand,Procedural,Software Design
+Q255,Define software testing. Explain the unit testing strategy.,Understand,Procedural,Software Verification and Validation
+Q256,What is system testing ? Explain any two system testing strategies,Understand,Conceptual,Software Verification and Validation
+Q257,Explain the following : i) Condition testing ii) Loop testing.,Understand,Conceptual,Software Verification and Validation
+Q258,Differentiate white box and black box testing. Explain the graph based testing method as a black box testing method.,Understand,Procedural,Software Verification and Validation
+Q259,"Explain the role of people, product and process in project management",Understand,Factual,Software Project Management
+Q260,Differentiate and explain size and function oriented metrics,Understand,Conceptual,Software Project Management
+Q261,Explain the FP based estimation technique.,Understand,Procedural,Software Project Management
+Q262,Explain the concept of make buy decision using decision tree analysis.,Apply,Procedural,Software Project Management
+Q263,What is software project estimation ? How use cases are used in estimation ?,Apply,Procedural,Software Project Management
+Q264,How do you measure software quality in terms of maintainability and integrity ?,Evaluate,Procedural,Software Project Management
+Q265,What is a task network in project scheduling ? Explain with an example,Understand,Conceptual,Software Project Management
+Q266,How risk projection is carried out using risk table ?,Apply,Procedural,Software Project Management
+Q267,What is software configuration management ? Explain the change control mechanism in software configuration management,Understand,Conceptual,Tools and Environments
+Q268,Explain earned value analysis in project scheduling,Understand,Conceptual,Software Project Management
+Q269,What is a software process model? Explain the types of software process models.,Understand,Conceptual,Software Processes
+Q270,Explain the key challenges facing software engineering.,Understand,Conceptual,Software Processes
+Q271,With a neat block diagram explain the systems engineering process activities.,Understand,Procedural,Software Processes
+Q272,"With a neat block diagram, explain the spiral process model",Understand,Procedural,Software Processes
+Q273,Define dependability. Also explain briefly the four principle dimensions of dependability.,Understand,Conceptual,Software Reliability
+Q274,With appropriate block diagram explain briefly the requirement engineering process for software specification activities,Understand,Procedural,Requirements Engineering
+Q275,For the set of tasks shown below draw the project scheduling using i) Activity chart. ii) Gantt / Bar chart. iii) Staff allocation versus time chart. Assuming start date of project as 01 Nov.2014.,Apply,Procedural,Software Project Management
+Q276,Draw a state machine model of a simple microwave oven.,Apply,Procedural,Software Design
+Q277,Draw a sequence diagram for withdrawing money from ATM.,Apply,Procedural,Software Design
+Q278,Write the IEEE format of writing SRS.,Understand,Procedural,Requirements Engineering
+Q279,Differentiate between: i) User requirements and system requirements. ii) Functional requirements and non-functional requirements.,Understand,Factual,Requirements Engineering
+Q280,Explain briefly the techniques of requirements discovery.,Understand,Procedural,Requirements Engineering
+Q281,List the system structuring styles and explain the repository model with a block diagram.,Understand,Conceptual,Software Design
+Q282,"With a neat block diagram, explain the object oriented decomposition for invoice processing sub-system.",Apply,Procedural,Software Design
+Q283,Explain briefly: i) Call-Return control model. ii) Broadcast control model.,Understand,Conceptual,Software Design
+Q284,With appropriate block diagram explain briefly extreme programming process model.,Understand,Procedural,Software Processes
+Q285,"With appropriate block diagram, explain the system evolution process.",Understand,Procedural,Software Evolution
+Q286,Explain briefly the software inspection process,Understand,Procedural,Software Verification and Validation
+Q287,With a neat block diagram explain the verification and validation process (V-model).,Understand,Procedural,Software Verification and Validation
+Q288,Perform the path testing for the following program flow graph by computing Cyclomatic complexity,Apply,Procedural,Software Verification and Validation
+Q289,Write short notes on: a. Legacy system.   b. COCOMO model.  c. Capability maturity model   d.  Software testing process,Understand,Conceptual,
+Q290,"Define software, software engineering, software process.",Remember,Factual,Software Processes
+Q291,What are attributes of good software?,Remember,Factual,Software Processes
+Q292,Explain two types of emergent properties?,Understand,Factual,Requirements Engineering
+Q293,Explain System dependability.,Understand,Conceptual,Software Reliability
+Q294,Explain process iteration.,Understand,Procedural,Software Processes
+Q295,Give Software Requirement Document (IEEE STANDARD).,Remember,Procedural,Requirements Engineering
+Q296,Explain requirement validation.,Understand,Conceptual,Requirements Engineering
+Q297,Explain structured methods.,Understand,Procedural,Software Design
+Q298,Explain risk management.,Understand,Conceptual,Software Project Management
+Q299,Explain system organization.,Understand,Conceptual,Software Design
+Q300,Give state diagram for weather station and explain design evaluation.,Apply,Procedural,Software Design
+Q301,Explain extreme programming.,Understand,Conceptual,Software Processes
+Q302,Give Lehman's Law.,Remember,Conceptual,Software Evolution
+Q303,Explain clean room software development.,Understand,Conceptual,Software Construction
+Q304,Explain component Testing.,Understand,Conceptual,Software Verification and Validation
+Q305,Give factors governing staff selection.,Evaluate,Procedural,Software Project Management
+Q306,Name factors affecting software engineering productivity and cost estimation techniques.,Remember,Procedural,Software Project Management
+Q307,What is software? Explain the essential attributes of a good software.,Understand,Factual,Software Processes
+Q308, List and explain any five software engineering code of ethics and professional practices.,Understand,Factual,Software Processes
+Q309,"Describe briefly the phases of the system engineering process, with a neat diagram.",Understand,Procedural,Software Processes
+Q310,Define critical systems. Explain the four principle dimensions of system dependability.,Understand,Conceptual,Software Reliability
+Q311,Briefly discuss the reliability terminologies and mention the approaches to system reliability enhancement.,Understand,Procedural,Software Reliability
+Q312,"What is software process? With a neat diagram, explain the software design process activities, in detail.",Understand,Procedural,Software Design
+Q313,What are the different metrics for specifying non-functional requirements? Explain any two of them.,Understand,Factual,Requirements Engineering
+Q314, Write the IEEE standard format for requirement document.,Remember,Factual,Requirements Engineering
+Q315,Give reasons why requirement elicitation and analysis is a difficult phase in requirements engineering process.,Understand,Procedural,Requirements Engineering
+Q316,What are volatile requirements? Briefly discuss the classification of volatile requirements.,Understand,Factual,Requirements Engineering
+Q317,Draw and explain the sequence diagram for ATM system.,Create,Procedural,Software Design
+Q318,Mention the weaknesses of structured methods when used to produce system models.,Evaluate,Procedural,Software Design
+Q319,"Explain the risk management process, with a neat diagram.",Understand,Procedural,Software Project Management
+Q320,"Define architectural design. With an example, describe the repository model and give its advantages and disadvantages.",Understand,Conceptual,Software Design
+Q321, Briefly discuss the architectural design decisions.,Understand,Conceptual,Software Design
+Q322,Draw and explain the state diagram for weather station system.,Create,Procedural,Software Design
+Q323,What is pair programming? Highlight its advantages.,Remember,Conceptual,Software Processes
+Q324," Explain with a diagram, rapid application development environment.",Understand,Procedural,Software Construction
+Q325,"Explain the activities involved in re-engineering process, with an illustrative figure.",Understand,Procedural,Software Evolution
+Q326,Briefly discuss some of the automated static analysis checks.,Understand,Procedural,Tools and Environments
+Q327,Explain the five key strategies of clean room software development.,Understand,Conceptual,Software Processes
+Q328,What is test automation? Explain with figure the tools that might be included in a testing workbench.,Understand,Procedural,Tools and Environments
+Q329,Name and explain any five factors governing staff selection.,Understand,Procedural,Software Project Management
+Q330, Briefly discuss the advantages and disadvantages of group cohesiveness that influence group working.,Understand,Factual,Software Project Management
+Q331,Explain in detail algorithmic cost models in project planning.,Understand,Procedural,Software Project Management
+Q332,What are the attributes of a good software? Explain. Also list and explain the key challenges facing software engineering.,Understand,Conceptual,Software Processes
+Q333,"Explain with block diagram, the system engineering process.",Understand,Procedural,Software Processes
+Q334,Define the term dependability. List and explain the various dependability properties.,Understand,Factual,Software Reliability
+Q335,What is a software process model? Explain with a block diagram the evolutionary development model.,Understand,Procedural,Software Processes
+Q336,"Distinguish between functional and non-functional requirements. With a block diagram, explain non-functional requirement types.",Understand,Factual,Requirements Engineering
+Q337,List at least five stake holders for an automated university examination system. Classify the identified stake holders under different view points.,Analyze,Procedural,Requirements Engineering
+Q338,Write short notes on:    a. Context Models.    b. Objects Models   c. Project Scheduling    d. Risk Management,Understand,Conceptual,Software Project Management
+Q339,Explain the terms:  a. Architectural design decisions.  b. The repository model.    c. Unified modeling language (UML).   d. Sequence models.,Understand,Conceptual,Software Design
+Q340, List and explain the principles of agile methods. Also explain the problems with agile methods.,Understand,Procedural,Software Processes
+Q341,"Define ""Program Evolution Dynamics"". Discuss the Lehman laws for program evolution dynamics.",Understand,Conceptual,Software Evolution
+Q342, Explain the various inspection roles and inspection check lists for software inspection process.,Understand,Procedural,Software Verification and Validation
+Q343,What is partition testing? Identify equivalence class partitions for automated air conditioning system having at least four partitions. List also the boundary values for each class.,Analyze,Procedural,Software Verification and Validation
+Q344,"Define people capability maturity model (PCMM). With a block diagram, explain various  P-CMM levels.",Understand,Conceptual,Software Reliability
+Q345,List and explain various COCOMO cost estimation models.,Understand,Procedural,Software Project Management
+Q346,Explain the types of software process model.,Understand,Conceptual,Software Processes
+Q347,What are professional and ethical responsibility of software engineering?,Remember,Factual,Software Processes
+Q348,Differentiate between technical computer based system and socio—technical system.,Understand,Factual,Software Processes
+Q349,"With a relevant figure, bring out different disparities involved in software engineering.",Analyze,Conceptual,Software Processes
+Q350,Explain the concept of safety and security in system.,Understand,Factual,Software Reliability
+Q351,Bring out the different factors of system dependability.,Analyze,Conceptual,Software Reliability
+Q352,"Explain the software specification, with neat diagram.",Understand,Procedural,Requirements Engineering
+Q353,Briefly list out non—functional requirements of software system.,Remember,Factual,Requirements Engineering
+Q354,"Explain the requirement engineering process, with relevant figures.",Understand,Procedural,Requirements Engineering
+Q355,Explain the different system models which can be created during analysis process.,Understand,Procedural,Requirements Engineering
+Q356,Explain the management activities of a software manager.,Understand,Factual,Software Project Management
+Q357,What is need of architectural design decision? List out different that can be developed.,Remember,Conceptual,Software Design
+Q358,Describe the concept of client — server model with a neat diagram.,Understand,Conceptual,Software Design
+Q359,Explain the centralized control model. ,Understand,Conceptual,Software Design
+Q360,Explain the principles of agile methods.,Understand,Conceptual,Software Processes
+Q361,Explain the different types of software maintenance,Understand,Conceptual,Software Reliability
+Q362,Explain the software evolution process.,Understand,Procedural,Software Processes
+Q363,"With a neat diagram, explain the inspection process.",Understand,Procedural,Software Verification and Validation
+Q364,Explain the stages involved in automatic static analysis.,Understand,Procedural,Software Verification and Validation
+Q365,Explain the performance testing.,Understand,Conceptual,Software Verification and Validation
+Q366,Describe the four factors of people management.,Understand,Factual,Software Project Management
+Q367, Explain the Maslow concept of motivating people,Understand,Conceptual,Software Project Management
+Q368,"Describe the cost estimation-techniques, with relevant example.",Understand,Procedural,Software Project Management
+Q369,What are attributes of good software?,Remember,Factual,Software Processes
+Q370,Define Software Engineering. Explain different types of software product.,Understand,Factual,Software Processes
+Q371,Explain emergent system properties with examples.,Understand,Factual,Software Processes
+Q372,Explain the different types of critical systems.,Understand,Factual,Software Reliability
+Q373, Explain security terminologies.,Understand,Conceptual,Software Project Management
+Q374,Describe rational unified process with block diagram.,Understand,Procedural,Software Design
+Q375,Explain the metrics for specifying non-functional requirements.,Understand,Factual,Requirements Engineering
+Q376,Explain requirement engineering process.,Understand,Procedural,Requirements Engineering
+Q377,Explain the structure of the requirements document.,Understand,Procedural,Requirements Engineering
+Q378,List and explain different types of system models.,Understand,Conceptual,Software Design
+Q379,What are project management activities? Explain.,Understand,Factual,Software Project Management
+Q380,"With an example describe the repository model and give, its advantages and disadvantages.",Understand,Conceptual,Software Design
+Q381,Draw and explain state diagram for a typical weather station.,Apply,Procedural,Software Design
+Q382,Explain the principles of agile methods.,Understand,Factual,Software Processes
+Q383, What is pair programming? Explain its advantages.,Remember,Factual,Software Processes
+Q384,Explain Lehman's laws of program evolution dynamics.,Understand,Conceptual,Software Evolution
+Q385,Briefly explain the roles in inspection process.,Understand,Procedural,Software Verification and Validation
+Q386,Explain clean -room software development.,Understand,Conceptual,Software Reliability
+Q387,Explain general model of testing with the help of block diagram.,Understand,Procedural,Software Verification and Validation
+Q388,Explain any five factors governing staff selection.,Evaluate,Procedural,Software Project Management
+Q389,What are the factors that influence group working?,Remember,Factual,Software Project Management
+Q390,Explain cost estimation techniques.,Understand,Procedural,Software Project Management
+Q391,Answer the following questions:  I) Difference between software engineering and System Engineering.   ii) What is the software process model ?   Iii) What are key challenges facing software engineering?,Understand,Conceptual,Software Processes
+Q392,What are emergent system properties? Give examples. Explain the types of emergent properties.,Understand,Factual,Software Processes
+Q393,Define legacy system ? Explain the layered model of legacy system.,Understand,Conceptual,Software Processes
+Q394,What are the types of critical systems? Define. Write a simple safety critical system and explain.,Create,Procedural,Software Reliability
+Q395,"Explain the evolutionary development, and its properties.",Understand,Conceptual,Software Processes
+Q396,Write Boehm's spiral model of the software process and explain.,Create,Procedural,Software Processes
+Q397,List out the notations for requirement with description.,Remember,Factual,Requirements Engineering
+Q398,Write the roles of the users of a requirement document.,Remember,Factual,Requirements Engineering
+Q399,What is Ethnography? How ethnography is effective in discovering the types of requirements ?,Evaluate,Conceptual,Requirements Engineering
+Q400,Draw the state machine model of a microwave oven.,Create,Procedural,Software Design
+Q401," What is object aggregation ? Write an example showing aggregation, with notation.",Understand,Conceptual,Software Design
+Q402,"According to Bas et al, what are the advantages of designing and documenting software architecture?",Remember,Procedural,Software Design
+Q403,Explain event driven systems.,Understand,Conceptual,Software Design
+Q404,What is a sequence model? Write the sequence model of operations in collecting the data from a weather station and explain.,Create,Procedural,Software Design
+Q405,Explain the difficulties with iterative development and incremental delivery.,Understand,Procedural,Software Construction
+Q406,Briefly discuss the extreme programming release cycle with a neat diagram.,Understand,Procedural,Software Processes
+Q407,How software maintenance is carries out? Explain briefly.,Understand,Procedural,Software Reliability
+Q408,Explain V-model with a neat diagram for planning verification and Validation process.,Understand,Procedural,Software Verification and Validation
+Q409,Explain the characteristics of clean room software development.,Understand,Conceptual,Software Reliability
+Q410,Explain any one of the approaches to test case design.,Understand,Procedural,Software Verification and Validation
+Q411,Why people capability maturity model is used? Explain P-CMM model.,Understand,Conceptual,Software Design
+Q412,List the factors that influence the effectiveness of communication.,Remember,Factual,Software Project Management
+Q413,Write a note on project duration and staffing.,Understand,Factual,Software Project Management
+Q414,Name the types of metrics used to estimate productivity.,Remember,Factual,Software Project Management
+Q415,Describe FOUR Ps for Project Management and explain any THREE in detail.,Understand,Conceptual,Software Project Management
+Q416,What does CASE stands for? Explain all the CASE components.,Understand,Conceptual,Tools and Environments
+Q417,Define Software Engineering. Draw and explain Software Engineering layers.,Understand,Procedural,Software Processes
+Q418,Write and explain briefly possible reasons for project failure.,Understand,Factual,Software Processes
+Q419,Describe two main features of Spiral model and discuss working of Prototyping model with its diagram,Understand,Procedural,Software Processes
+Q420,Discuss umbrella activities and its role in software development life cycle (SDLC).,Understand,Conceptual,Software Processes
+Q421,Explain W5HH principle with respect to software project management,Understand,Conceptual,Software Project Management
+Q422,Draw context diagram and data flow diagram (DFD) for Airlines Reservation System.,Create,Procedural,Software Design
+Q423,What is Software Reliability? Compare Black Box testing and White Box testing in software product.,Understand,Conceptual,Software Verification and Validation
+Q424,Prepare an E-R diagram for a Hospital Management System.,Create,Procedural,Requirements Engineering
+Q425,Describe process of requirement engineering in detail.,Understand,Procedural,Requirements Engineering
+Q426,Discuss all generic frame work activities of software engineering with respect to any one process model.,Understand,Procedural,Software Processes
+Q427,What is testing? What is debugging? Draw the spiral diagram showing testing strategies with phases of software development,Apply,Procedural,Software Verification and Validation
+Q428,Draw database design model and discuss Architectural design and Interface design.,Apply,Conceptual,Software Design
+Q429,What is User Interface (UI)? Explain the design model for UI.,Understand,Conceptual,Software Design
+Q430,Discuss Incremental process model with its diagram and compare with Waterfall model.,Analyze,Conceptual,Software Processes
+Q431,Define Software Quality Assurance (SQA) and explain SQA activities.,Understand,Procedural,Software Project Management
+Q432,Explain the difference between software and hardware characteristics.,Understand,Factual,Software Processes
+Q433,List and explain very briefly various activities of software engineering process framework.,Understand,Conceptual,Software Processes
+Q434,Explain the process model which is normally suits for development of large-scale software system.,Analyze,Procedural,Software Processes
+Q435,Develop a complete Use Case System for ATM machine.,Create,Procedural,Software Design
+Q436,Consider a project to develop a text editor. Major modules of project are: 1. Menu Panel (size 9KB) 2. Text editing window (size 4 KB) 3. Short cut  keys handler (size 6 KB). Use COCOMO to determine the overall cost of the project and duration of development.,Apply,Procedural,Software Project Management
+Q437,"Explain function point analysis method. Compute the function points for the following data set: Inputs =8, Outputs= 12, Inquiries = 4, Logical files = 41, Interfaces =1 and   Fi = 41.",Analyze,Procedural,Software Project Management
+Q438,"Using appropriate example, Explain control flow model.",Understand,Procedural,Software Verification and Validation
+Q439,Define module coupling and cohesion. Explain different types of coupling and cohesion.,Understand,Conceptual,Software Design
+Q440,Explain functional modeling of a system. Draw data flow diagram for an ATM machine.,Create,Procedural,Software Design
+Q441,What is the difference between software architecture and software design? Explain any two architectural styles of software.,Understand,Conceptual,Software Design
+Q442,Write short note on : Risk Management,Understand,Conceptual,Software Project Management
+Q443,Explain Version Management and code quality management under changing conditions.,Understand,Conceptual,Tools and Environments
+Q444,Explain Importance of SQA.,Understand,Conceptual,Software Project Management
+Q445,What is Black box testing? Explain any one technique to carry out black box testing.,Apply,Procedural,Software Verification and Validation
+Q446,What are different levels of testing and the goals of each level?,Remember,Factual,Software Verification and Validation
+Q447,Write short note on : Software Prototyping.,Understand,Conceptual,Software Processes
+Q448,Write short note on: Integrated CASE Environment.,Understand,Conceptual,Tools and Environments
+Q449,Write short note on: Software Project Management,Understand,Conceptual,Software Project Management
+Q450,What is Software Engineering ? What is Process ? What is Product?,Remember,Factual,Software Processes
+Q451,Explain Requirement engineering process.,Understand,Procedural,Requirements Engineering
+Q452,Explain Spiral Process Model and its advantages .,Understand,Procedural,Software Processes
+Q453,Explain Feasibility Study of College Management System.,Analyze,Procedural,Requirements Engineering
+Q454,Explain Feasibility Study of Hospital Management System,Analyze,Procedural,Requirements Engineering
+Q455,Explain Functional and non functional requirement,Understand,Factual,Requirements Engineering
+Q456,Explain Prototype model and compare it with Water Fall process model .,Analyze,Conceptual,Software Processes
+Q457,"What is Data design, architectural design and procedural Design?",Remember,Factual,Software Design
+Q458,Draw E-R Diagram for university result system,Create,Procedural,Requirements Engineering
+Q459,Explain User Interface Design Concepts with example.,Understand,Conceptual,Software Design
+Q460,Explain Different Quality standards.,Understand,Factual,Software Project Management
+Q461,Explain Software Quality Assurance Techniques.,Understand,Procedural,Software Project Management
+Q462,What are the steps in software Project Planning? What is effort estimation?,Remember,Procedural,Software Project Management
+Q463,Explain Different Testing Techniques.,Understand,Factual,Software Verification and Validation
+Q464,Explain CASE and building blocks of CASE,Understand,Conceptual,Tools and Environments
+Q465,"Explain Different Metrics –Size, Functional and complexity",Understand,Factual,Software Project Management
+Q466,"Explain : Reliability , Cyclomatic Complexity",Understand,Factual,Software Verification and Validation
+Q467,State True/False,Remember,Factual,
+,"Once we write the program and test it, our work is not over.",,,
+,Design should be traceable to the requirements model.,,,
+,Full form of MTBF is – Mean Time Between Failure.,,,
+,Context diagram represents system as a whole.,,,
+,"For software architecture, there can be many separate software designs.",,,
+,Most of the technical effort is consumed in design phase of software development.,,,
+,Black Box testing focuses on the program control structure,,,
+Q468,Explain in detail the process model which is normally suited for development of large-scale software system.,Evaluate,Procedural,Software Processes
+Q469,Explain Spiral model with suitable example. Also explain how it differs from Software Prototyping model,Analyze,Conceptual,Software Processes
+Q470,Consider a project to develop a text editor. Major modules of project are: 1. Menu Panel (size 9KB) 2. Text editing window (size 4 KB) 3. Short cut  keys handler (size 6 KB). Use COCOMO to determine the overall cost of the project and duration of developm,Apply,Procedural,Software Project Management
+Q471,"Explain function point analysis method. Compute the function points for the following data set: Inputs =8, Outputs= 12, Inquiries = 4, Logical files = 41, Interfaces =1 and   Fi = 41.",Apply,Procedural,Software Project Management
+Q472,What is SRS? Why SRS is known as black-box specification of the system? What are major issues addressed by SRS?,Remember,Factual,Requirements Engineering
+Q473,Define module coupling and cohesion. Explain different types of coupling and cohesion.,Understand,Conceptual,Software Design
+Q474,What is Software Quality Assurance? Explain various factors that affect Software Quality.,Understand,Conceptual,Software Project Management
+Q475,Explain the process model which is used in situations where the requirements are well defined.,Apply,Conceptual,Software Processes
+Q476,Write short note on : Risk Management,Understand,Conceptual,Software Project Management
+Q477,Explain “How to manage the different versions that get created and how to maintain code quality under changing conditions.”,Understand,Factual,Tools and Environments
+Q478,Explain in detail the design issues while designing User Interface.,Understand,Conceptual,Software Design
+Q479,Explain Black box testing and White box testing. Explain any one technique to carry out each testing.,Understand,Procedural,Software Verification and Validation
+Q480,What are different levels of testing and the goals of the different levels?,Remember,Conceptual,Software Verification and Validation
+Q481,Write short note on: Reverse Engineering.,Understand,Conceptual,Software Reliability
+Q482,Explain Software Process Improvement. Explain various elements of SPI framework and maturity model.,Understand,Conceptual,Software Design
+Q483,Write short note on: Software Project Management,Understand,Conceptual,Software Project Management
+Q484,Explain incremental model for system development. Differentiate it with spiral model.,Analyze,Conceptual,Software Processes
+Q485,What is W5HH principle? Explain in detail.,Understand,Factual,Software Processes
+Q486,Draw the Data Flow Diagram with different levels for withdraw and deposit of money in a bank,Create,Procedural,Software Design
+Q487,What is software prototyping? Explain its significance in software engineering with example.,Understand,Conceptual,Software Processes
+Q488,Define Quality for software. List and explain SQA activities,Understand,Conceptual,Software Project Management
+Q489,Prepare an E-R diagram for a simple Library Management System.,Create,Procedural,Software Design
+Q490,Explain software testing strategy for conventional software architecture. Draw the spiral diagram showing testing strategies with phases of software development.,Create,Procedural,Software Verification and Validation
+Q491,Prepare a state diagram for Microwave Oven showing all states of it.,Create,Procedural,Software Design
+Q492,How unit testing strategy works on a software module? What errors are commonly found during unit testing?,Analyze,Conceptual,Software Verification and Validation
+Q493,Define FOUR Ps for project management and explain them in detail,Understand,Factual,Software Project Management
+Q494,Explain the significance of User Interface (UI) in a system. Also explain the design model for UI.,Apply,Conceptual,Software Design
+Q495,List and explain requirement engineering tasks.,Understand,Conceptual,Requirements Engineering
+Q496,What is Cyclomatic Complexity? Define steps to find cyclomatic complexity using flow graph.,Apply,Procedural,Software Verification and Validation
+Q497,What is activity diagram and swim-lane diagram? Draw activity diagram for Billing Counter of a shopping mall.,Create,Procedural,Software design
+Q498,Draw and explain Process Framework,Understand,Procedural,Software Processes
+Q499,How do we define software engineering? Draw and explain software engineering layers.,Understand,Procedural,Software Processes
+Q500,What is Object Oriented Design of a system? Create a class diagram showing all possible relationships between classes of a system,Create,Procedural,Software Design
+Q501,Describe the difference between risk components and risk drivers.,Understand,Factual,Software Project Management
+Q502,Develop a complete use cases for the system which is known to you.,Create,Procedural,Software Design
+Q503,Develop a complete test strategy for the system which is known to you.,Create,Procedural,Software Verification and Validation
+Q504,Describe requirements validation,Understand,Factual,Requirements Engineering
+Q505,Describe generic view of software Engineering.,Understand,Factual,Software Processes
+Q506,Explain in brief the spiral model,Understand,Conceptual,Software Processes
+Q507,Using appropriate example explain control flow mode,Understand,Procedural,Software Processes
+Q508,Explain in brief the process model which is used in situations where requirements are well defined and stable.,Apply,Factual,Software Processes
+Q509,Using appropriate example explain data dictionary,Understand,Conceptual,Software Design
+Q510,Explain the W^5HH principle,Understand,Conceptual,Software Processes
+Q511,List set of guidelines for formal technical reviews,Remember,Factual,Software Evolution
+Q512,List and explain work tasks for the communication activity,Understand,Conceptual,Software Project Management
+Q513,Explain importance of SQA,Understand,Conceptual,Software Project Management
+Q514,Using example explain the basic path testing method,Understand,Procedural,Software Verification and Validation
+Q515,Describe coding standards.,Understand,Factual,Software Construction
+Q516,List set of guidelines for BVA ? Also Explain merits and demerits of BVA,Remember,Conceptual,Software Verification and Validation
+Q517,Describe integrated CASE Environment,Understand,Conceptual,Tools and Environments
+Q518,Distinguish verification and validation.,Understand,Factual,Software Verification and Validation
+Q519, Define System Engineering.,Remember,Factual,Software Processes
+Q520, What do you mean by functional and non–functional requirements?,Remember,Factual,Requirements Engineering
+Q521,List two advantages 'of employing Prototyping in Software.Process.,Remember,Factual,Software Processes
+Q522,Define Software Architecture.,Remember,Factual,Software Design
+Q523, List the notations used in Data-flow models:,Remember,Factual,Software Design
+Q524, What are the classes of loops that can.be tested?,Remember,Factual,Software Verification and Validation
+Q525,What isCyclomatic complexity?.,Remember,Factual,Software Verification and Validation
+Q526,What is software configuration management?,Remember,Factual,Tools and Environments
+Q527,What is error tracking?,Remember,Factual,Software Project Management
+Q528,Discuss in detail about any two evolutionary process models.,Understand,Conceptual,Software Processes
+Q529,Discuss about the claSsic Waterfall process model.,Understand,Conceptual,Software Processes
+Q530,Explain the prototype paradigm in process Models,Understand,Conceptual,Software Processes
+Q531,What are the components of the standard structure for the software requirements document? Explain in detail.,Understand,Procedural,Requirements Engineering
+Q532,Write the software requirement specification for a system of your  choice,Create,Procedural,Requirements Engineering
+Q533,What are the types of behavioural models? Explain with examples.,Understand,Conceptual,Software Design
+Q534,Explain in detail about any four architectural styles.,Understand,Conceptual,Software Design
+Q535,What are the characteristics of a .real-time system? Explain why  real-time systems usually have to be implemented using concurrent   processes,Apply,Procedural,Software Construction
+Q536,Illustrate with the aid of an appropriate .example how to design a real-time monitoring and control systems:,Create,Procedural,Software Design
+Q537, Explain in detail about the Integration testing.,Understand,Procedural,Software Verification and Validation
+Q538,Explain in detail about Basis path testing,Understand,Procedural,Software Verification and Validation
+Q539,What is COCOMO model? Explain in detail,Understand,Conceptual,Software Project Management
+Q540,What are CASE tools? ExpliOn the role of CASE tools in software development process.,Understand,Conceptual,Software Processes
+Q541,Elaborate on Software Configuration Management.,Understand,Conceptual,Tools and Environments
+Q542,What are the categories of software risks? Give an overview  about   risk management. ,Understand,Conceptual,Software Project Management
+Q543,What is software process? List its activities.,Remember,Procedural,Software Processes
+Q544,Distinguish between verification and validation.,Understand,Factual,Software Verification and Validation
+Q545,List the benefits of software prototyping.,Remember,Conceptual,Software Processes
+Q546,What is data dictionary?,Remember,Factual,Software design
+Q547,Define data abstraction.,Remember,Factual,Software Construction
+Q548,Write the use of data acquisition system.,Remember,Conceptual,Software design
+Q549,What is black box testing?,Remember,Factual,Software Verification and Validation
+Q550, Write down the generic characteristics of software testing.,Remember,Factual,Software Verification and Validation
+Q551,Compare size-oriented with function-oriented metrics.,Understand,Factual,Software Project Management
+Q552, What do you mean by estimation risk? ,Remember,Factual,Software Project Management
+Q553,"With a neat sketch, explain the function of system engineering process.",Understand,Procedural,Requirements Engineering
+Q554,What is computer based . system? Explain the various systeml elements used in it,Understand,Factual,Tools and Environments
+Q555,Explain the business process engineering hierarchy with an  example.,Understand,Factual,Software Reliability
+Q556,What is the goal of product engineering?,Understand,Conceptual,Software Construction
+Q557,Explain the metrics used for specifying non-functional  requirements.,Understand,Factual,Requirements Engineering
+Q558,Show the template of IEEE standard software requirements document,Apply,Procedural,Requirements Engineering
+Q559,Explain the function-of requirements engineering process.,Understand,Procedural,Requirements Engineering
+Q560,Describe the use of behavioral model with-examples,Understand,Conceptual,Software Design
+Q561,Discuss the design heuristics for effective modularity design,Apply,Procedural,Software Design
+Q562,Explain the architectural styles used in architectural design,Understand,Conceptual,Software Design
+Q563,List the activities of user interface design process,Remember,Procedural,Software Design
+Q564,Explain the general model of a real time system,Understand,Conceptual,Software Design
+Q565,Explain the integration testing in detail,Understand,Procedural,Software Verification and Validation
+Q566,Write note on unit testing,Understand,Procedural,Software Verification and Validation
+Q567,Explain the categories of debugging approaches,Understand,Procedural,Software Verification and Validation
+Q568,EXplain the use of COCOMO model,Understand,Conceptual,Software Project Management
+Q569,Describe the steps involved in project scheduling process,Understand,Procedural,Software Project Management
+Q570,Briefly discuss the activities . of Software configuration management.,Understand,Procedural,Tools and Environments
+Q571,Explain the types of software project plan,Understand,Conceptual,Software Project Management
+Q572,What is Software Engineering?,Remember,Factual,Software Processes
+Q573,`Software doesn't wear out'. Justify,Evaluate,Factual,Software Processes
+Q574,List two advantages of using traceability tables in the requirements  management phase:,Remember,Conceptual,Requirements Engineering
+Q575,What are the types.of prototypes?,Remember,Factual,Software Processes
+Q576,Develop a CRC model index card for a class 'Account' used in a Banking  application.,Create,Procedural,Software Construction
+Q577,List two principles of good design.,Remember,Factual,Software Design
+Q578,What are the levels at which testing is done?,Analyze,Procedural,Software Verification and Validation
+Q579, Define Regression Testing.,Remember,Procedural,Software Verification and Validation
+Q580,Define Software Quality.,Remember,Factual,Software Project Management
+Q581,What is Risk? Give an example of risk.,Understand,Factual,Software Project Management
+Q582,"Compare the following life cycle models based on their distinguishing factors, strengths and weaknesses Waterfall Model, RAD Model, Spiral'Model and Formal Methods Model.",Analyze,Conceptual,Software Processes
+Q583, Develop the use case diagram for the specification above,Create,Procedural,Software Design
+Q584,For any two scenarios draw an activity diagram and sequence diagram.,Create,Procedural,Software Design
+Q585,What is the purpose of feasibility study? ,Remember,Factual,Requirements Engineering
+Q586,State the inputs and results of the feasibility study,Remember,Factual,Requirements Engineering
+Q587,List any four issues addressed by. a feasibility study.,Remember,Factual,Requirements Engineering
+Q588,Elaborate the phases-involved when carrying out a feasibility study,Understand,Conceptual,Requirements Engineering
+Q589,Differentiate functional and non-functional requirements.,Understand,Factual,Requirements Engineering
+Q590,"For' the requirement given below, identify stakeholders, functional    and non—functional requirements",Analyze,Conceptual,Requirements Engineering
+Q591, What is system modelling? Explain the 'process of creating models and the factors that should.be considered when building models.,Understand,Procedural,Software Design
+Q592," Give a name for the system. Draw the Level 6 DFD (Context Flow 'Diagram) , Draw the Level — DFD.",Create,Procedural,Software Design
+Q593,"Given a set Of numbers 'n' ,the function FindPrime(a[ ],n) prints a number if it is a _prime number. Draw control flow graph, calculate the cyclomatic complexity and enumerate all paths. State how 'many test cases are needed to adequately cover .the code in terms of branches, decisions and-statement? Develop the necessary test cases using sample values for 'a' and 'n'.
+",Create,Procedural,Software Verification and Validation
+Q594,What is black box testing? ,Remember,Conceptual,Software Verification and Validation
+Q595,"What .is' Equivalence Class Partitioning? list rules used to define valid and invalid equivalence classes. EXplain the technique Using examples.
+",Understand,Procedural,Software Verification and Validation
+Q596,What is Boundary Value Analysis? Explain the technique specifying rules. and its usage with the. help of an example.,Understand,Procedural,Software Verification and Validation
+Q597,Explain the COC.OMO model for estimation.,Understand,Procedural,Software Project Management
+Q598,State ZIPF's law.,Remember,Conceptual,Software Project Management
+Q599,What is the purpose of Delphi method? State advantages and disadvantages of the method.,Remember,Procedural,Software Project Management
+Q600,What is SoftWare Configuration Management? Explain various aspects of Configuration. Management.,Understand,Procedural,Tools and Environments
+Q601,What are the potential advantages of adhering to life cycle models for software?,Remember,Conceptual,Software Processes
+Q602,Is it always possible to realize win-win model for software? Justify.,Evaluate,Conceptual,Software Processes
+Q603,"Distinguish between the terms inception, elicitation and elaboration with reference to requirements.",Understand,Factual,Requirements Engineering
+Q604,An SRS is traceable. Comment.,Understand,Factual,Requirements Engineering
+Q605,How do you apply modularizalion criteria for a monolithic software?,Apply,Conceptual,Software Design
+Q606,What. are the design quality attributes 'FURL'S' meant?,Remember,Factual,Software Design
+Q607,What is a Big-Bang approach?,Remember,Factual,Software Verification and Validation
+Q608,How are the software testing results related to the reliability of the software?,Understand,Conceptual,Software Verification and Validation
+Q609,"An organic software occupies 15,000 LOC. How many programmers are needed   to complete?",Apply,Procedural,Software Project Management
+Q610, How are the software risks assessed?,Evaluate,Procedural,Software Project Management
+Q611," Describe waterfall, incremental, iterative water fall model and spiral  model based SLCS and compare.",Understand,Conceptual,Software Processes
+Q612,How the software products are classified? Discuss briefly about business process engineering and product engineering.,Understand,Conceptual,Software Processes
+Q613,Describe the requirement engineering process and how the requirements  are managed.,Understand,Conceptual,Requirements Engineering
+Q614,Explain the functional and behavioural models for software requirement  process.,Understand,Conceptual,Requirements Engineering
+Q615,"Discuss about software architecture design, with emphasize on far in, far out, coupling, cohesion and factoring.",Understand,Conceptual,software design
+Q616, What are the characteristics of a good user interface design? Describe  ow UID may be developed for a data acquisition system.,Understand,Conceptual,Software Design
+Q617,Write elaborately on white box testing for a software. How do you develop test suites?,Create,Procedural,Software Verification and Validation
+Q618,Discuss the software implementation techniques and debugging guidelines.,Understand,Procedural,Software Verification and Validation
+Q619,How the cost of a software is estimated using (i) function point metric model (ii) cocomo (by three methods). What is the contribution of  technology complexity factor in function point model?,Apply,Procedural,Software Project Management
+Q620,Write short notes on the following : (i) PERT and CP/vi for scheduling  (ii) RIVIMP  (iii) ESTIMACS and   (iv) Software maintenance cost. ,Understand,Conceptual,
+621,Prototype is : a) Mini model of existing system  b) Mini model of proposed system c) Working model of the existing system d) None of these.,Remember,Factual,
+,The present trend in data processing system is : a) Distributed processing b) Remote processing c) Real-time processing  d) None of these.,,,
+, A class is a : a)  group of objects b) template of object of a particular type c)class of object d)classification of object.,,,
+,In UML diagram of a class a) state of object cannot be represented  b) state is irrelevant c) state is represented as an attribute  d) state is represented as a result of operation.,,,
+,The testing performed by friendly user is : a) Alpha testing      b) Beta testing  c) White box testing  d) None of these.,,,
+,A good software design contains :   a) High cohesion and low coupling  b) Low cohesion and low coupling   c) High cohesion and high coupling d) Low cohesion and high coupling.,,,
+,Which is not supported by UML ? a) Use case diagram   b) Class diagram  c) ER diagram         d) Sequence diagram.,,,
+,How many parameters are used in complexity  adjustment in F.P. ?  :  a)  17   b)  21   c)  14                d)  12.,,,
+,ix) Which level of SEI CMM is called as managed ?  : a) Level 1                b) Level 2     c)   Level 3              d) Level 4.,,,
+,What is the approximate time taken for coding ?   a) 17%                    b) 21%   c) 3%                     d) 40&.,,,
+622,What are Cohesion and Coupling ? Classify them according  to priority.,Understand,Conceptual,Software Design
+623,What is Configuration Management ? Discuss about the necessity of Configuration Management.  ,Analyze,Conceptual,Tools and Environments
+624, Compare function oriented and object oriented approach for  software design with example.,Understand,Procedural,Software Design
+625,Why do we need Structure analysis and Structure design ?  What is Context diagram ?   ,Remember,Factual,Software Design
+626,Determine the Cyclomatic complexity for GCD function. ,Evaluate,Procedural,Software Verification and Validation
+627, Explain the drawbacks of waterfall model. Why is sprial model called meta model ?   ,Understand,Conceptual,Software Processes
+628,What is a prototype model ? Under what circumstances is it beneficial to construct a prototype model ? Does  the construction of a prototype model always increase  the overall cost ? ,Evaluate,Procedural,Software Processes
+629,Who are the different categories of users of the SRS  document ? What are their expectations from SRS ?,Remember,Factual,Requirements Engineering
+630, What are the advantages of requirement specification  document ? Who is a good software engineer ?,Remember,Factual,Requirements Engineering
+631,Which life cycle model will you follow for developing software for — i) a game ? (ii) a Compiler for new language ?   ,Apply,Procedural,Software Processes
+632, What is the role of a manager in project management ?  What is Risk Containment ?       ,Remember,Factual,Software Project Management
+633,Write short note on Intermediate COCOMO and  Complete COCOMO.   ,Understand,Conceptual,Software Project Management
+634,"Two software engineers separately estimated a given  project to be of 10,000 and 15,000 lines of code  respectively. Bring out the Effort and Schedule time implications of their estimate using Organic COCOMO.",Apply,Procedural,Software Project Management
+635, Why do we need to maintain the coding standard and   guidelines for coding ? What are the standards we need  to maintain ?       ,Remember,Factual,Software Construction
+636,Draw a DFD for Hotel Management System. ,Create,Procedural,Software Design
+637, What are the shortcomings of CMM ? Compare ISO 9000 certification and SEI CMM.,Understand,Factual,Software Reliability
+638,Write short notes on the following : (i)     TQM (ii) Boundary value analysis (iii) Alpha and Beta testing.,Understand,Conceptual,
+639,Tracking the correspondence between the design  component and the SRS is known as :  a) Availability        b) Traceability   c)  Maintainability    d) Reliability.,Remember,Factual,
+,"When the two bubbles are interconnected directly, it is referred as  a) Serial DFD          b) Direct DFD  c) Synchronous         d) Balanced DFD.",,,
+,   DFD balancing means :  a) Balancing of weight of processes e b) Must match the total number of bubbles c) Must match the data flow at the next level of DFD  d) none of these.,,,
+,System Testing performed by a friendly set of cAsto ers is called : a) Alpha Testing        b) Beta Testing c) Performance Testing d) Usability Testing. ,,,
+,Function Point describes  a) The SRS document b) The test plans c) The functional decomposition  d) The size of a software product directly from its  specification.,,,
+,The potential risks are best detected by a) Spiral Model         b) Waterfall Model c) Incremental Model    d) Prototyping Model.,,,
+,The most desirable form of cohesion is  a) sequential cohesion b) procedural cohesion c) coincidental cohesion d) functional cohesion.,,,
+,Software testing is the 10 a) process of demonstrating t t errors are not  present  b) process of establishing confidence that a program  does what it is supposed to do■  c) process of executing a program to show that it is  working as per specifications d) process of executing a program with the intent of  finding errors.,,,
+,The best type of coupling is a) Coincidental   b)Logical  c) Informational    d) Functional.,,,
+, Big Bank Integration testing is useful for projects with   a) smaller number of modules  b) large number of modules   c) average number of modules   d) None of these.,,,
+640,Explain Data-Dictionary.,Understand,Factual,software design
+641, b) What is integration testing ? Explain with suitable example.,Understand,Conceptual,Software Verification and Validation
+642,c) What is layered architecture ? ,Remember,Conceptual,software design
+643,a) What are the various classifications of failures ? Briefly   explain it.,Understand,Factual,Software Reliability
+644,b) Briefly explain the basic issues of Software Reuse.,Understand,Factual,Software Evolution
+645, c) Define Software Quality. ,Remember,Factual,Software Reliability
+646,Draw the CFG of the following code segment and find ,Apply,Procedural,Software Verification and Validation
+,McCabe Cyclomatic complexity by applying all the methods. ,,,
+," test(int b,int c,int x)",,,
+,b. = c + 5;,,,
+,While(x =1) {,,,
+,  x=x-1;,,,
+,if (x = 7)x: = 8;,,,
+," else test (x, 3, x - 1) ;",,,
+,  },,,
+, },,,
+647,What are cohesion and coupling ? Discuss different kinds of cohesion.,Evaluate,Conceptual,Software Design
+648," a) If a module has logical cohesion, what kind of coupling  is this module likely to have with other modules ? Justify your answer.",Evaluate,Conceptual,Software Design
+649, b) Why is SRS document known as black box specification  of a system ?     ,Analyze,Conceptual,Requirements Engineering
+650,a) Define with examples the different categories of software  development projects according to the COCOMO  estimation model.,Understand,Conceptual,Software Project Management
+651, b) The size of an organic type software system to be   developed by SCV Consultancy Services has been estimated to be 200 KLOC. Determine the effort   required to develop the software system.,Apply,Procedural,Software Project Management
+652,a) Explain Meta Model.      ,Understand,Conceptual,Software Processes
+653, b) A Library Membership Software (LMS) should support the following three options : (i) New member   (ii) Renewal (iii) Cancel membership.  Draw Decision Tree and also implement Decision Table  for the system.   ,Create,Procedural,Requirements Engineering
+654," c) Explain unit testing, system testing and accept nce   testing.",Understand,Conceptual,Software Verification and Validation
+655, d) What is coding standard ? What are the contents of coding header ?     ,Remember,Factual,Software Construction
+656,a) Explain different types of 'performance testing'.  ,Understand,Conceptual,Software Verification and Validation
+657, b) Explain 'equivalence class partitioning' with an example. ,Understand,Conceptual,Software Verification and Validation
+658,c) Differentiate between 'code walkthrough' and 'code  inspection'.,Understand,Conceptual,Software Verification and Validation
+659,Calculate the software product's maintenance cost.,Apply,Procedural,Software Project Management
+660,a) Who are the different categories of users of the SRS document ? What are their expectations from the SRS document ?,Remember,Factual,Requirements Engineering
+661, What are the advantages of SRS document ? What are  'test data' and 'test vector ?  ,Remember,Factual,Requirements Engineering
+662,c) What are the different types of team structure followed  in software projects ? Discuss them briefly.,Understand,Conceptual,Software Project Management
+663,"a) What are the differences between fault, failure and  error ?        ",Understand,Factual,Software Verification and Validation
+664, b) Write a C function to find the maximum of three integer numbers. Now draw the control flow graph for that  C function. Also find its cyclomatic complexity using possible methods.      ,Create,Procedural,Software Verification and Validation
+665,Write down two differences between a structure chart and a flow chart.    ,Understand,Procedural,Software Verification and Validation
+666, d) Distinguish between high-level and detailed designs.  What documents should be produced on completion of  high-level and detailed designs respectively ?,Understand,Procedural,Software Design
+667,a) Draw the context diagram and Level 1 DFD for the  following Mail Order Processing System.  ,Create,Procedural,Software Design
+668," b) Explain when you use the PERT charts and when to use  Gnatt charts, if you were to perform the duties of a  project manager.   ",Understand,Procedural,Software Project Management
+669, c) How are the concepts of Cohesion and Coupling useful   in arriving at good software design ?  ,Understand,Conceptual,Software Design
+670,Who proposed the Spiral Model ? a) Boehm    b) Winston Royce c) Rumbaugh  d) Booch.,Remember,Factual,
+,Cardinality in an ER Diagram refers to a) number of attributes in an entity b) the order of co-related entities c) the number of sub-entities d) degree of a relationship.,,,
+,"If data from one module is used to direct the o der of  execution in another, then the coupling is known as  a) Stamp Coupling      b) Data Coupling c) Control Coupling    d) Content Coupling.",,,
+,"To achieve a good design, modules should have a) Weak cohesion Low coupling b) Weak cohesion High coupling c) Strong cohesion Low coupling  d) Strong cohesion High coupling.",,,
+,Alpha-testing is done by a) the development team r A b) a friendly set of customers c) the customer himself  d) none of these.,,,
+, Equivalence class partitioning is followed in the   a) white-box testing   b) black-box testing   c) verification        d) none of these.,,,
+, Functionality of software is tested by a) white-box testing  b) glass-box testing c) black-box testing  d) none of these.,,,
+,Which model is generally used for developing GUI of a  system ?  a) Spiral ■1%)No/  b) Prototyping c) Iterative waterfall) d) Evolutionary.  ,,,
+, Normalization is used for reducing a) atomicity  b)redundancy  c)    both (a) 85 (b)         d) none of these.,,,
+,Data hiding can be achieved by a) Data Encapsulation  b) Data Overloading  c) Data Abstraction  d) Polymorphism.,,,
+671,What are 'baselines' with respect to software configuration management ? ,Remember,Conceptual,Tools and Environments
+672, What is the necessity of software configuration management in developing a software ? ,Remember,Conceptual,Tools and Environments
+673,a) What are stress testing and volume testing ?,Remember,Procedural,Software Verification and Validation
+674,b) Why is testing important ?,Remember,Procedural,Software Verification and Validation
+675, What are CASE tools ? How are they helpful in software development life cycle ?,Understand,Procedural,Tools and Environments
+676, Distinguish between softwary verification and software  validation. When during the software life cycle verification  and validation performed ? ,Understand,Conceptual,Software Verification and Validation
+677,Which life cycle model would you follow for developing  software for each of the following applications ? Justify your selection of model with the help of an appropriate reason. a) A Game  b) A Text editor,Analyze,Procedural,Software Processes
+678,a) Design a : White Box' Test suite for the following code : ,Create,Procedural,Software Verification and Validation
+679, What do you understand by software reliability ?,Understand,Conceptual,Software Reliability
+680," Define the following terms : MTTF, MTTBR, ROCOF.  ",Remember,Factual,Software Reliability
+681,a) Explain when and why you will use PERT charts and when and why will you use Gantt charts while you are   project manager.,Analyze,Procedural,Software Project Management
+682," b) Consider a software project with 5 activities T1 to T5.   Duration of 5 activities in weeks are 3, 2, 3, 5, 2  respectively. T2 and T4 can start when T1 is complete.  T3 can start when T2 is complete. T5 can start when  both T3 and T4 are complete.  Draw activity network for the project. When is the latest  start date of the activity T3 ? What is the float of the activity T4 ? Which activities are on the critical path ?  Draw the Gantt chart also",Create,Procedural,Software Project Management
+683,It is estimated that there will be 70 errors in a software. During testing 25 errors have been experienced.  Calculate failure intensity with a given value of ɸ = 0.03 using Jelinski-Moranda model. What will be the failure intensity after experiencing 50 errors ? What are  cosmetic and transient errors ?,Apply,Procedural,Software Project Management
+684,Why is risk analysis important ?  What is the difference between a 'Known' risk and 'Predictable' risk ?        ,Understand,Conceptual,Software Project Management
+685, Distinguish between a Data Flow Diagram and a flow  chart.     ,Understand,Procedural,Software Design
+686,What is SRS ? Briefly explain the characteristics of a  good SRS.        ,Remember,Factual,Requirements Engineering
+687, What is meant by stub ? What is a driver ? In which  testing are they required ? Explain briefly.,Understand,Factual,Software Verification and Validation
+688,Write short notes on any three of the following :  a) Feasibility study b) Waterfall Model  c) Quality Assurance d) Decision tree and Decision table e) Black Box testing.,Understand,Conceptual,
+689,a) What is the economical feasibility of a'system?,Remember,Factual,Requirements Engineering
+690,b) What is the differenceb etweenI nspectionsa nd Walkthroughs?,Understand,Factual,Software Verification and Validation
+691,c) What is Black box Testing strategies?,Remember,Procedural,Software Verification and Validation
+692,d) What is a decision tree?,Remember,Procedural,Requirements Engineering
+693,e) What is Process based estimation?,Remember,Procedural,Software Project Management
+694,f) Is unit testingp ossibieo r evend esirablein ail circumstances?,Analyze,Procedural,Software Verification and Validation
+695,g) What is cyclomatic complexity?,Remember,Factual,Software Verification and Validation
+696,h) Explain briefly whetherS /W is developedo r engineered,Understand,Factual,Software Processes
+697,l) What is Software Maintenance?,Remember,Conceptual,Software Reliability
+698,j) What is the major duty of a system'analyst?,Remember,Factual,Software Project Management
+699,What aret he quality  attributes that every software should possess? Explain them  clearly. List various objectives of software engineering.,Understand,Factual,Software Project Management
+700,Explain the waterfall life cycle model.,Understand,Conceptual,Software Processes
+701,What are test reports? Explain the various testing techniques.,Understand,Procedural,Software Verification and Validation
+702,What are the projectn management tools used? List them and explain. Explain the side effects that are caused due to software maintennance,Understand,Factual,Software Project Management
+703,Who should perform the validation test: S/W developer or S/W user ? Justify your answer.,Evaluate,Factual,Software Verification and Validation
+704,Softwarer equiretnenat nalysisis the most communicationin tensives tepi n softwaree ngineeringp rocessD. Iscuss,Understand,Factual,Requirements Engineering
+705,"Suppose you want to develop software for a Visitors Registration System For the above mentioned system, develop a Systems Requirembnt Specifications.",Create,Procedural,Requirements Engineering
+706,What is a user interface. Elaborate the rules for designing the user  interface.,Understand,Conceptual,Software Design
+707,What is validation?,Remember,Factual,Software Verification and Validation
+708,Whati s embeddesdo ftware?,Remember,Factual,Software Processes
+709,Whati s meantb y softwarem aintenance?,Remember,Factual,Software Reliability
+710,What is beta testing?,Remember,Factual,Software Verification and Validation
+711,Whati s ther ole of creatinga testd ata,Remember,Factual,Software Verification and Validation
+712,Whata rel imitationso f Lineso f Code?,Remember,Factual,Software Project Management
+713,What is coupling?,Remember,Conceptual,Software Design
+714,What is 4GL environment?,Remember,Conceptual,Tools and Environments
+715,Whats oftwarefa ils?,Remember,Factual,Software Reliability
+716,Whata red isadvantageosf usingl ibraryr outines?,Remember,Factual,Software Reliability
+717,Q2) What are software components?,Remember,Factual,Software Design
+718,Why is prorotypen ecessary?H ow tloesh is approachs avest he cost and effort?,Understand,Factual,Software Project Management
+719,Why the characteristicosf requirementps lay significantr ole in selectinga model?,Remember,Factual,Software Project Management
+720,Describet he proceduresto calculatec ost-benefita nalysis.,Understand,Procedural,Software Project Management
+721,What is meant by feasibility analysis?,Remember,Procedural,Requirements Engineering
+722,What is the difference between decision table and decision tree?,Understand,Procedural,Requirements Engineering
+723,"What is difference among formal, semiformal and informal methods of software development",Understand,Procedural,Software Construction
+724,Explain various types of COCOMO modes. Explain about the phase wised istributiono f efforts.,Understand,Procedural,Software Project Management
+725,What types of errors are likely to be discovered through inspection,Remember,Factual,Software Verification and Validation
+726,What is softwareq uality andq uality attributes?W hat ares oftwareq uality standards?,Remember,Factual,Software Reliability
+727,What is the needf or softwarem aintenance?H ow aret hesem aintained for client seryera rchitecturee nvironment?,Remember,Conceptual,Software Reliability
+728,Explain data design.,Understand,Conceptual,Software Design
+729,Explains oftwarec haracteristics.,Understand,Factual,Software Processes
+730,Whati s cyclomaticc omplexity?,Remember,Procedural,Software Processes
+731,Whata ret he advantageasn dd isadvantageosf CASEt ools,Remember,Procedural,Tools and Environments
+732,Definet op downa pproachto softwared esign,Remember,Procedural,Software Design
+733,Whati s the differenceb etweenfl owcharta nds tructurec hart?,Understand,Procedural,Software Design
+734,What do you mean by metrics?,Remember,Factual,Software Project Management
+735,What is a ER-diagram?,Remember,Procedural,Requirements Engineering
+736,What is Rayleigh curve used for?,Remember,Factual,Software Project Management
+737,Whatd o youm eanb y SEl-CapabilitMy aturityM odel?,Understand,Conceptual,Software Reliability
+738,Whicha ret het echniquews ithw hichc oste stimateosf a projectm ayb em ade? Explaint heC OCOMOm odel.,Understand,Procedural,Software Project Management
+739,Whatis meanbt y SoftwareC onfiguratioMn anagement,Remember,Conceptual,Tools and Environments
+740,Whata ret hed ifferent oolsu sedf or structuredsy stema nalysis& design.,Understand,Conceptual,Software Design
+741,Narnet hev ariousli fe cycler nodelsE. xplaint he spiralr nodeli n detail.,Understand,Conceptual,Software Processes
+742,How is schedulingo f a project dones o that it is developedi n minimumt ime?,Understand,Procedural,Software Project Management
+743,What is the difference between structural programming and data oriented designE. xplain.,Understand,Procedural,Software Design
+744,Give a detailed accouni on the debugging techniques on their classification and the methodsi nvolved.,Understand,Procedural,Software Verification and Validation
+745,ExplainC odings tylea ndC odinge fficiencyL. ist ande xplaint he characteristics of a programmingla nguage.,Understand,Procedural,Software Construction
+746,"Out of the following life cycle models which one can be considered as the most general model, and the others as specialization of it? a. Classical Waterfall Model    b. Iterative Waterfall Model c. Prototyping Model    d. Spiral Model",Remember,Factual,
+,The interface of a software product which is supporting a large number of commands can be developed using________. a. mode-based interface   b.  either mode-based interface or modeless interface c. modeless interface    d. neither mode-based interface nor modeless interface,,,
+,Domain analysis identifies which of the following? a. objects      b. operations  c. relationships among objects   d. all of the above,,,
+,The most abstract artifact associated with software development that can be reused is___.  a. requirements specification     b. design  c. code       d. knowledge e. test cases,,,
+,The primary objective(s) in using any CASE tool is(are):________. a. to increase productivity of software development  b. to decrease software development as well as software maintenance cost c. help to produce better quality software d. all of the above ,,,
+,The basic premise of modern quality assurance is___________. a. continuous process improvement b. thorough product testing  c. if an organization’s processes are good and are followed rigorously then the products are bound to be of good quality  d. collection of process metrics,,,
+,Job specialization is one of the main advantages in case of which organization structure?  a. project format     b. function format  c. either project format or function format  d. both of project format and function format,,,
+,"A project estimation technique based on making an educated guess of the project parameters (such as project size, effort required to develop the software, project duration, cost etc.) is_________.  a. analytical estimation technique   b. heuristic estimation technique c. empirical estimation technique   d. none of the above",,,
+,"When a system interfaces with other types of systems then that time the testing be required is_________. a. volume testing     b. configuration testing c. compatibility testing    d. maintenance testing
+",,,
+,The bubbles in a level 1 DFD represent  a. exactly one high-level functional requirement described in SRS document  b. more than one high-level functional requirement  c. part of a high-level functional requirement  d. any of the above depending on the problem  ,,,
+747,a. State at least three differences between the exploratory style and modern styles of software development,Understand,Conceptual,Software Processes
+748,b. What is the need for a software life cycle model? Explain.,Understand,Conceptual,Software Processes
+749,"What is axiomatic specification of system? What are the sequence of steps that can be followed to systematically develop the axiomatic specifications of a function. Give the axiomatic specification of following functions. i. Specify the pre- and post-conditions of a function that takes a real number as argument and returns half the input value if the input is less than or equal to 100, or else returns double the value ii. Axiomatically specify a function named search which takes an integer array and an integer key value as its arguments and returns the index in the array where the key value is present.",Apply,Procedural,Requirements Engineering
+750,a. Explain at least three reasons in favor of why functional independence is the key factor for a good software design.,Understand,Conceptual,Software Design
+751,b. Explain the aim of the structured analysis activity. Which documents are produced at the end of structured analysis activity?,Understand,Factual,Software Design
+752,"a. Differentiate among basic COCOMO model, intermediate COCOMO model and complete COCOMO model.",Understand,Conceptual,Software Project Management
+753,b. In what units can you measure the productivity of a software development team? List three important factors that affect the productivity of a software development team.,Remember,Factual,Software Project Management
+754,"a. Draw the control flow graph for the following function named find maximum. From the control flow graph, determines its Cyclomatic complexity. What is the difference between path and linearly independent path in terms of control flow graph (CFG) of a problem?",Create,Procedural,Software Verification and Validation
+755, List the major responsibilities of a software project manager. What should be the necessary skills of a software project manager in order to perform the task of software project management?,Remember,Procedural,Software Project Management
+756,Define six metrics to measure software reliability. Do you consider these metrics entirely satisfactory to provide measure of the reliability of a system? Justify your answer.,Evaluate,Procedural,Software Reliability
+757,What is the difference between user guidance and on-line help system in the user interface of a software system?,Understand,Factual,Software Design
+758,"1.    Out of the following life cycle models which one can be considered as the most general model, and the others as specialization of it? a) Classical Waterfall Model  b) Iterative Waterfall Model c) Prototyping Model d) Spiral Model",Remember,Factual,
+,1.    Which of the following view captured by UML diagrams can be considered as black box model of a system? a) structural view b) behavioural view c) user’s view  d) implementation view,,,
+,"1.    Among development phases of software life cycle, which phase typically consumes the maximum effort? a) Requirements analysis and specification b) Design c) Coding d) Testing ",,,
+,The design pattern solutions are typically described in terms of  a) class diagrams b) object diagrams c) interaction diagrams d) both class and interaction diagrams ,,,
+,The context diagram of a DFD is also known as a) level 0 DFD  b) level 1 DFD c) level 2 DFD d) none of these,,,
+759,1.    Spiral life cycle model is not suitable for products that are vulnerable to large number of risks.,Remember,Factual,
+,2.    The upper rows of the decision table specify the corresponding actions to be taken when an evaluation test is satisfied.,,,
+,3.    Applications developed using 4 GLs would normally be more efficient and run faster compared to applications developed using 3 GL.,,,
+,4.    A DFD model of a system represents the functions performed by the system and the data flow taking place among these functions.,,,
+,The aggregation relationship cannot be reflexive and symmetric but is transitive.,,,
+760,a.       Discuss the two important techniques that software engineering uses to tackle the problem of exponential growth of problem complexity with its size.,Understand,Procedural,Software Processes
+761,b.      Explain the various phases of a classical waterfall model.,Understand,Procedural,Software Processes
+762,c.       Identify the use of algebraic specifications in the context of requirements specification.,Analyze,Conceptual,Requirements Engineering
+763,a.       Discuss the shortcomings of the DFD model.,Understand,Procedural,Software Design
+764,b.      Explain why is it necessary to create a model in the context of good software development.,Understand,Conceptual,Software Design
+765,c.       Explain the purpose of different types of objects identified during domain analysis. Explain how these objects interact among each other.,Analyze,Procedural,Software Design
+766,a.       Write down some popular design patterns and their necessities. ,Remember,Factual,Software Design
+767,b.      Explain the Menu-based interfaces,Understand,Conceptual,Software Design
+768,c.       How does the human cognition capabilities and limitations influence human-computer user interface designing?,Evaluate,Conceptual,Software Design
+769,a.       Discuss the various coding standards and coding guidelines ,Understand,Factual,Software Construction
+770,b.      Explain Black Box Testing.,Understand,Conceptual,Software Verification and Validation
+771,c.       What is meant by a task model? Explain it with examples.,Understand,Conceptual,Software Design
+772,Write short notes on the following  a. Basic COCOMO model b. Intermediate COCOMO model c. Complete COCOMO model,Understand,Conceptual,Software Project Management
+773,a.       What is egoless programming? How can it be realized?,Understand,Conceptual,Software Project Management
+774,"b.       As a project manager, identify the characteristics that you would look for in a software engineer while trying to select personnel for your team.",Analyze,Factual,Software Project Management
+775,C       List and explain three common types of risks that a typical software project might suffer from.,Remember,Factual,Software Project Management
+776,1.       Functional independence results in a) error isolation b) scope of reuse c) understandability d) all of the above ,Remember,Factual,
+,2.       The context diagram of a DFD is also known as a) level 0 DFD  b) level 1 DFD c) level 2 DFD d) none of the above,,,
+,3.       Which of the following view captured by UML diagrams can be considered as black box model of a system? a) structural view b) behavioural view c) user’s view  d) implementation view,,,
+,4.       The class that should be responsible for doing certain things for which it has the necessary information – is the solution proposed by a) creator pattern b) controller pattern c) expert pattern  d) façade pattern,,,
+,"5.       Among development phases of software life cycle, which phase typically consumes the maximum effort? a) Requirements analysis and specification b) Design c) Coding d) Testing ",,,
+777,1.       Prototyping life cycle model is the most suitable one for undertaking a software development project susceptible to schedule slippage.,Remember,Factual,
+,"2.       In the object-oriented design, the basic abstraction is real-world functions.",,,
+,3.       DFDs enable a software engineer to develop the data domain and functional domain decomposition of the system at the same time.,,,
+,"4.       For any given problem, one should construct all the views using all the diagrams provided by UML.",,,
+,"5.       The Aggregation relationship can be recursively defined, i.e. an object can contain instances of itself.",,,
+778,Differentiate between the exploratory style and modern styles of software development.,Understand,Conceptual,Software Processes
+779,a.       Explain the problems that might be faced by an organization if it does not follow any software life cycle model.,Understand,Conceptual,Software Processes
+780,b.      Identify the necessity of using formal specification technique in the context of requirements specification.,Remember,Procedural,Requirements Engineering
+781,a.       Explain the use of operational semantic. ,Understand,Conceptual,Requirements Engineering
+782,b.      What does the term “balancing a DFD” mean? Give an example to explain your answer.,Understand,Conceptual,Software Design
+783,c.       What is meant by design patterns?,Remember,Conceptual,Software Design
+784,a.       Differentiate among different types of objects that are identified during domain analysis and also explain the relationships among those identified objects.,Understand,Conceptual,Software Design
+785,b.      Discuss the types of user interfaces,Understand,Conceptual,Software Design
+786,c.       Explain the architecture of the X window system.,Understand,Conceptual,Software Design
+787,a.       What do you mean by coding?  Identify the necessity of coding standards.,Remember,Factual,Software Construction
+788,b.      Explain unit testing.,Understand,Conceptual,Software Verification and Validation
+789,c.       What is meant by a task model? Explain it with examples.,Understand,Conceptual,Software Design
+790,a.       List and explain the different types of system testing.,Understand,Conceptual,Software Verification and Validation
+791,b.      Explain the various types of performance tests that can be performed to check whether the system meets the non-functional requirements identified in the SRS document.,Evaluate,Procedural,Requirements Engineering
+792,a.       List and explain three common types of risks that a typical software project might  suffer from.,Remember,Factual,Software Project Management
+793,"b.      Explain how you can identify the risks that your project is susceptible to. Suppose you are the project manager of a large software development project, point out the main steps you would follow to manage risks in your software project.",Analyze,Procedural,Software Project Management
+794,c.       Explain the necessity of software configuration management?,Understand,Conceptual,Requirements Engineering
